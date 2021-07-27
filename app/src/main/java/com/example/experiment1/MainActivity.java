@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 //                clear data
                 textInp.setText("");
-                ShowToast(v,textInp.getText().toString());
+                ShowToast(v,"Cleared Input");
             }
         });
 
